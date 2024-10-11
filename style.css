@@ -37,7 +37,20 @@ body {
     font-size: 18px;
 }
 
-.button {
+
+
+
+.btn-funcao {
+    width: 80px;
+    height: 50px;
+    background-color: #f57c00;
+    color: white;
+    margin: 5px;
+}
+
+#btn-confirma {
+    background-color: #4caf50;
+    border-radius: 5px;
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -58,19 +71,6 @@ body {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
-.btn-funcao {
-    width: 80px;
-    height: 50px;
-    background-color: #f57c00;
-    color: white;
-    margin: 5px;
-}
-
-#btn-confirma {
-    background-color: #4caf50;
-    border-radius: 5px;
 }
 
 .btn-numero {
