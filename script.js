@@ -62,6 +62,38 @@ document.getElementById('btn-confirma').addEventListener('click', () => {
 document.getElementById('btn-resultados').addEventListener('click', () => {
     const resultadoDiv = document.getElementById('resultado-votos');
     resultadoDiv.innerHTML = `
+    <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <br>
+                    <th>Company</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <th>11</th>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <th>22</th>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <th>33</th>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <th>44</th>
+                </tr>
+                <tr>
+                    <td>Elena</td>
+                    <th>55</th>
+                </tr>
+            </tbody>
+        </table>
         <p>Segunda (11): ${votos[11]} votos</p>
         <p>Terca (22): ${votos[22]} votos</p>
         <p>Quarta (33): ${votos[33]} votos</p>
