@@ -67,7 +67,8 @@ document.getElementById('btn-resultados').addEventListener('click', () => {
                 <tr>
                     <th>candidato</th>
                     <br>
-                    <th>numero</th>
+                    <th>votos
+                    </th>
                 
                 </tr>
             </thead>
@@ -78,19 +79,19 @@ document.getElementById('btn-resultados').addEventListener('click', () => {
                 </tr>
                 <tr>
                     <td>Bruno</td>
-                    <th>22</th>
+                    <th>${votos[22]}</th>
                 </tr>
                 <tr>
                     <td>Carla</td>
-                    <th>33</th>
+                    <th>${votos[33]}</th>
                 </tr>
                 <tr>
                     <td>Daniel</td>
-                    <th>44</th>
+                    <th>${votos[44]}</th>
                 </tr>
                 <tr>
                     <td>Elena</td>
-                    <th>55</th>
+                    <th>${votos[55]}</th>
                 </tr>
             </tbody>
         </table>
