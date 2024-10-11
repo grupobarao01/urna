@@ -67,7 +67,7 @@ document.getElementById('btn-resultados').addEventListener('click', () => {
                 <tr>
                     <th>Nome</th>
                     <br>
-                    <th>Company</th>
+                    <th>${votos[11]} votos</th>
                 
                 </tr>
             </thead>
