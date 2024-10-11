@@ -1,10 +1,10 @@
 
 const candidatos = {
-    11: "Segunda",
-    22: "Terca",
-    33: "Quarta",
-    44: "Quinta",
-    55: "Sexta"
+    11: "Ana",
+    22: "Bruno",
+    33: "Carla",
+    44: "Daniel",
+    55: "Elena"
 };
 
 const votos = {
