@@ -65,16 +65,16 @@ document.getElementById('btn-resultados').addEventListener('click', () => {
     <table border="1">
             <thead>
                 <tr>
-                    <th>Nome</th>
+                    <th>candidato</th>
                     <br>
-                    <th>${votos[11]} votos</th>
+                    <th>numero</th>
                 
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Ana</td>
-                    <th>11</th>
+                    <th>${votos[11]} votos</th>
                 </tr>
                 <tr>
                     <td>Bruno</td>
