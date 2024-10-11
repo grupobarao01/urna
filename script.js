@@ -1,14 +1,18 @@
 
 const candidatos = {
-    12: "Candidato A",
-    34: "Candidato B",
-    56: "Candidato C"
+    11: "Segunda",
+    22: "Terca",
+    33: "Quarta",
+    44: "Quinta",
+    55: "Sexta"
 };
 
 const votos = {
-    12: 0,
-    34: 0,
-    56: 0,
+    11: 0,
+    22: 0,
+    33: 0,
+    44: 0,
+    55: 0,
     branco: 0,
     nulo: 0
 };
@@ -58,9 +62,11 @@ document.getElementById('btn-confirma').addEventListener('click', () => {
 document.getElementById('btn-resultados').addEventListener('click', () => {
     const resultadoDiv = document.getElementById('resultado-votos');
     resultadoDiv.innerHTML = `
-        <p>Candidato A (12): ${votos[12]} votos</p>
-        <p>Candidato B (34): ${votos[34]} votos</p>
-        <p>Candidato C (56): ${votos[56]} votos</p>
+        <p>Segunda (12): ${votos[11]} votos</p>
+        <p>Terca (34): ${votos[22]} votos</p>
+        <p>Quarta (56): ${votos[33]} votos</p>
+        <p>Quinta (34): ${votos[44]} votos</p>
+        <p>Sexta (56): ${votos[55]} votos</p>
         <p>Votos em Branco: ${votos.branco}</p>
         <p>Votos Nulos: ${votos.nulo}</p>
     `;
